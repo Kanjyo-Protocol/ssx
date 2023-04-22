@@ -31,7 +31,7 @@ const getNetworkName = (chainId: number): string => {
       return 'mainnet';
     case 4:
       return 'rinkeby';
-    case 420:
+    case 5:
       return 'goerli';
     default:
       return 'mainnet';
