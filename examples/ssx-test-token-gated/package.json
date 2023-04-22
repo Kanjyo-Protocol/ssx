@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "^0.12.3",
-    "@spruceid/ssx-react": "*",
+    "@spruceid/ssx-react": "file:../../packages/ssx-react",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
@@ -23,8 +23,8 @@
     "react-scripts": "5.0.1",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
-    "web-vitals": "^2.1.4",
-    "wagmi": "^0.12.6"
+    "wagmi": "^0.12.6",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -49,8 +49,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "react-app-rewired": "^2.2.1"
   }
 }
